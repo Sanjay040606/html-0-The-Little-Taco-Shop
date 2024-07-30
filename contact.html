@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav aria-labelledby="primary">
+            <ul id="primary">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="index.html" >About LTS</a>
+                </li>
+                <li>
+                    <a href="index.html">Our Menu</a>
+                </li>
+                <li>
+                    <a href="store hours.html">Store Hours</a>
+                </li>
+            </ul>
+        </nav>
+        <figure>
+            <img src="img/taco2.jpeg" alt="tacimage" type="image/jpeg" loading="lazy" title="taco delecious" width="1000" height="500">
+            <figcaption>
+                Little Taco Shop Tacos
+            </figcaption>
+        </figure>
+    </header>
+    <main>
+        <hr>
+        <h2>Our Contact Form</h2>
+        <fieldset>
+            <legend>Send Us A Message</legend>
+            <form action="https://httpbin.org/post" method="post">
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" autocomplete="on" required  placeholder="Enter Your Name">
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" autocomplete="on" required  placeholder="Enter Your email">
+                </p>
+                <h4>Message:</h4>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="type your message here"></textarea>
+            </form>
+        </fieldset>
+        <button type="submit">Send</button>
+        <button type="reset">Reset</button>
+    </main>
+    <footer>
+        <h2>Our Location</h2>
+        <address>
+            No:18 amman kovi st <br> chennai -62
+            <br><br>
+            phn no:<a href="tel:+5555555555">555-555-5555</a>
+        </address>
+        <hr>
+        <p>Copyright&copy;The Little Taco Shop</p>
+    </footer>
+
+</body>
+</html>
